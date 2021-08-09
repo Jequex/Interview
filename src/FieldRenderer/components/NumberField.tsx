@@ -1,6 +1,6 @@
 import React, {useCallback} from 'react'
 import FieldHeader from '../FieldHeader'
-import { SetNumberFieldValue } from './redux/actions'
+import { SetNumberFieldValue } from '../../redux/actions'
 import { useDispatch } from 'react-redux';
 import NumericInput from 'react-numeric-input';
 
