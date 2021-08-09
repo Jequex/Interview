@@ -8,7 +8,7 @@ const App = () => {
   const fields = useFields()
     return (
       <div style={{display: 'flex', flexDirection: 'column'}}>
-        {fields.map(field => <FieldRenderer field={field}/>)}
+        {fields.map(field => <FieldRenderer field={field}/>)}[]
       </div>
     );
 }
